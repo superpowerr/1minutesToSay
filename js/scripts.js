@@ -325,18 +325,6 @@
 		}).scroll();
 	
 	
-	
-		// WOW ANIMATION 
-			wow = new WOW(
-			{
-				animateClass: 'animated',
-				offset:       50
-			}
-			);
-			wow.init();
-	
-	
-	
 		// COUNTER
 			 $(document).scroll(function(){
 				$('.odometer').each( function () {
